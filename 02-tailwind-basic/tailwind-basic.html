@@ -6,7 +6,35 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="text-4xl bg-red-500 font-bold underline">Hello world</h1>
+  <body class="bg-purple-500 min-h-screen">
+    <div class="flex justify-center items-center min-h-screen p-6">
+      <!-- card -->
+      <div class="bg-white w-full max-w-[400px] rounded-lg shadow-md p-6 m-4">
+        <!-- avatar -->
+        <div class="flex items-center gap-4 m-2">
+          <div class="bg-purple-500 rounded-full w-[60px] h-[60px]"></div>
+          <div>
+            <h2 class="text-xl font-bold">Jane smith</h2>
+            <p class="text-sm text-gray-500">Developer</p>
+          </div>
+        </div>
+        <!-- info -->
+        <div class="bg-blue-500 rounded-lg p-4 m-2">
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem similique
+          </p>
+        </div>
+        <!-- button  -->
+        <div>
+          <button
+            class="bg-purple-500 text-white py-3 px-6 rounded-lg cursor-pointer"
+          >
+            Follow
+          </button>
+          <button>Message</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
